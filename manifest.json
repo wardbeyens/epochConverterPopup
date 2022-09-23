@@ -1,0 +1,25 @@
+{  
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "css": [
+        "bubble.css"
+      ],
+      "js": [
+        "selection.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "description": "Provides a popup showing a human readable date of a highlighted Unix timestamp.",
+  "icons": {
+    "128": "icon.png",
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "manifest_version": 3,
+  "name": "Epoch Converter Popup",
+  "version": "1.0.0"
+}
